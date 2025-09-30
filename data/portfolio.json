@@ -1,0 +1,178 @@
+{
+  "personal": {
+    "name": "Thierno LO",
+    "tagline": "I build systems that don't break at 3 AM",
+    "bio": "Backend engineer and system architect from Dakar who's equally comfortable with Golang microservices and React Native apps. I've spent 3,658+ hours turning complex problems into production systems - payment platforms, sustainability analytics, CLI tools, and distributed architectures. Master's in CS from UCAD. Fluent in English, French, Arabic. Currently shipping code with Golang and Python, orchestrating chaos with Kubernetes.",
+    "location": "Dakar, Senegal 🇸🇳",
+    "email": "tlo4413@gmail.com",
+    "github": "https://github.com/thiere18",
+    "linkedin": "https://linkedin.com/in/thiernoibrahimalo",
+    "upwork": "https://www.upwork.com/freelancers/~01ffecee52a5287b55",
+    "status": "Available for interesting problems"
+  },
+  "principles": [
+    "Write code like someone's pager will go off at 2 AM because of it (it will)",
+    "Good architecture is invisible; bad architecture is everywhere",
+    "If it's not in production, it doesn't exist",
+    "Type safety saves lives (and weekends)"
+  ],
+  "stats": [
+    {
+      "label": "Upwork Success",
+      "value": "100%",
+      "subtext": "20+ projects, zero failures"
+    },
+    {
+      "label": "Client Rating",
+      "value": "5.0★",
+      "subtext": "Because 4.9 isn't good enough"
+    },
+    {
+      "label": "Production Code",
+      "value": "3,658h+",
+      "subtext": "Still debugging"
+    },
+    {
+      "label": "Languages Spoken",
+      "value": "3+6",
+      "subtext": "Human + Programming"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "What I Actually Do",
+      "items": [
+        "Build microservices that survive Black Friday traffic",
+        "Design distributed systems that handle failure gracefully",
+        "Write APIs that frontend developers don't complain about",
+        "Set up infrastructure that deploys itself",
+        "Debug production issues while everyone else sleeps",
+        "Ship full-stack features when needed (React/Next.js/React Native)"
+      ]
+    },
+    {
+      "title": "What I'm Good At",
+      "items": [
+        "Golang for when performance matters (gRPC, Gin, microservices)",
+        "Python for when developer happiness matters (FastAPI, Django)",
+        "Kubernetes for when you need to scale yesterday",
+        "PostgreSQL for when your data actually matters",
+        "System design for when 'it works on my machine' isn't enough",
+        "React/Next.js for when backend devs need to ship frontend too"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "2022 - Present",
+      "title": "Senior Backend & DevOps Engineer",
+      "company": "Freelance (Top Rated Plus on Upwork)",
+      "summary": "Building production systems for companies that need them to actually work",
+      "projects": [
+        {
+          "name": "CLI Tool & Cloud Automation",
+          "client": "Crowdbotics (YC-backed)",
+          "problem": "Developers spending hours on deployment configs instead of shipping features",
+          "solution": "Built a CLI tool in Golang that generates deployment configs automatically. Added gRPC endpoints for service communication. Reduced deployment setup from hours to minutes.",
+          "impact": "Team can now focus on features, not infrastructure",
+          "tech": ["Golang", "gRPC", "Azure", "Docker"]
+        },
+        {
+          "name": "8-Service Microservices Platform",
+          "client": "Finanzsoft GmbH (German Fintech)",
+          "problem": "Monolith taking 45 minutes to deploy, impossible to scale individual services",
+          "solution": "Broke it into 8 microservices with proper service boundaries. Set up Kubernetes orchestration. Added Prometheus monitoring. Optimized performance bottlenecks.",
+          "impact": "Deploys now take 3 minutes. Services scale independently. Team actually knows what's broken before customers do.",
+          "tech": ["Docker", "Kubernetes", "Prometheus", "Redis", "Nginx"]
+        },
+        {
+          "name": "Distributed Payment System",
+          "client": "Pafyll",
+          "problem": "Legacy payment system couldn't handle international expansion",
+          "solution": "Refactored critical paths, implemented Kafka for async processing, optimized Cassandra queries that were taking 10+ seconds down to <100ms",
+          "impact": "System now handles 10x traffic, expanded to 5 new markets",
+          "tech": ["Golang", "Kafka", "Cassandra", "Docker"]
+        },
+        {
+          "name": "Sustainability Analytics Platform",
+          "client": "Orkla HPC (Nordic Industrial)",
+          "problem": "Manual data collection, no real-time insights",
+          "solution": "Built REST APIs with FastAPI and Golang. Implemented JWT auth. Set up CI/CD pipeline. Added automated testing.",
+          "impact": "Real-time sustainability metrics, automated reporting",
+          "tech": ["Golang", "Python", "FastAPI", "PostgreSQL", "Redis", "Docker"]
+        }
+      ]
+    },
+    {
+      "period": "2020 - 2022",
+      "title": "Backend Developer",
+      "company": "Freelance",
+      "summary": "Where I learned that 'it works' and 'it works in production' are very different things",
+      "projects": [
+        {
+          "name": "Azure Infrastructure as Code",
+          "problem": "Manual deployments taking days, configuration drift everywhere",
+          "solution": "Wrote Terraform configs, set up Azure DevOps pipelines, automated everything that could be automated",
+          "impact": "Deploy time: days → 15 minutes. Configuration drift: eliminated",
+          "tech": ["Azure", "Terraform", "Docker", "CI/CD"]
+        },
+        {
+          "name": "Authentication System",
+          "problem": "Every project rebuilding auth from scratch (badly)",
+          "solution": "Built reusable auth system with JWT, OAuth2, RBAC. Made it actually secure this time.",
+          "impact": "Used across multiple projects. Zero security incidents (so far)",
+          "tech": ["FastAPI", "JWT", "OAuth2", "PostgreSQL", "Redis"]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "Right Now": {
+      "description": "What I'm using in production today",
+      "items": ["Golang", "Python", "Docker", "Kubernetes", "PostgreSQL", "Redis", "FastAPI", "gRPC"]
+    },
+    "Cloud & DevOps": {
+      "description": "Because code needs to run somewhere",
+      "items": ["Azure", "AWS", "Terraform", "CI/CD", "GitHub Actions", "Prometheus", "Nginx"]
+    },
+    "Data & Messaging": {
+      "description": "Moving data around without losing it",
+      "items": ["Kafka", "RabbitMQ", "Cassandra", "MongoDB", "Elasticsearch", "Celery"]
+    },
+    "Architecture": {
+      "description": "Patterns that actually work at scale",
+      "items": ["Microservices", "Event-Driven", "Domain-Driven Design", "CQRS", "Distributed Systems"]
+    },
+    "Also Know": {
+      "description": "Used enough to be dangerous",
+      "items": ["React", "Next.js", "TypeScript", "React Native", "Java", "Rust"]
+    }
+  },
+  "projects": [
+    {
+      "name": "Eco Place",
+      "tagline": "Marketplace for sustainable products",
+      "description": "Built a real-time marketplace platform because the world needs fewer plastic forks. WebSocket connections for live updates, Redis for caching, PostgreSQL because I like my data consistent.",
+      "tech": ["Next.js", "Python", "PostgreSQL", "Redis", "WebSockets"],
+      "status": "In production",
+      "link": null
+    },
+    {
+      "name": "Komatsu Analysis Tool",
+      "tagline": "Analytics for industrial equipment",
+      "description": "Data pipeline and dashboard for analyzing heavy machinery performance. Pandas for data munging, PostgreSQL for storage, React for visualization. Turns sensor data into actionable insights.",
+      "tech": ["Python", "Pandas", "PostgreSQL", "React"],
+      "status": "Client project",
+      "link": null
+    }
+  ],
+  "funFacts": [
+    "Master's in Computer Science from UCAD (Université Cheikh Anta Diop, Dakar)",
+    "Fluent in English, French, conversational Arabic (3 human languages + 6 programming)",
+    "Active on LeetCode because algorithms matter (even for backend work)",
+    "Started freelancing in 2020, went Top Rated Plus by 2022",
+    "Time zone: GMT (perfect overlap with EU morning & US afternoon)",
+    "Also comfortable with React Native when mobile apps need building",
+    "Comfortable working remotely with international teams across 3 continents"
+  ]
+}
