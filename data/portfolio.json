@@ -1,8 +1,8 @@
 {
   "personal": {
-    "name": "Thierno LO",
+    "name": "Thierno Ibrahima LO",
     "tagline": "I build systems that don't break at 3 AM",
-    "bio": "Backend engineer and system architect from Dakar who's equally comfortable with Golang microservices and React Native apps. I've spent 3,658+ hours turning complex problems into production systems - payment platforms, sustainability analytics, CLI tools, and distributed architectures. Master's in CS from UCAD. Fluent in English, French, Arabic. Currently shipping code with Golang and Python, orchestrating chaos with Kubernetes.",
+    "bio": "Full-Stack engineer and system architect from Dakar specialized in distributed systems and conversational AI (RAG/LLM). I've spent 3,658+ hours turning complex problems into production systems - sustainable energy platforms, payment processing, legal document management, and cloud infrastructure. Expert in microservices, DevOps, and performance optimization. Master's in Software Engineering from ESP Dakar. Fluent in English, French, Arabic. Currently shipping code with Golang, Python, and React, orchestrating chaos with Kubernetes.",
     "location": "Dakar, Senegal 🇸🇳",
     "email": "tlo4413@gmail.com",
     "github": "https://github.com/thiere18",
@@ -12,167 +12,258 @@
   },
   "principles": [
     "Write code like someone's pager will go off at 2 AM because of it (it will)",
-    "Good architecture is invisible; bad architecture is everywhere",
+    "Pragmatism over perfection - ship solutions that bring real business value",
     "If it's not in production, it doesn't exist",
-    "Type safety saves lives (and weekends)"
+    "Continuous learning and knowledge sharing make better teams"
   ],
   "stats": [
     {
       "label": "Upwork Success",
       "value": "100%",
-      "subtext": "20+ projects, zero failures"
+      "subtext": "20+ projects delivered"
     },
     {
       "label": "Client Rating",
-      "value": "5.0★",
-      "subtext": "Because 4.9 isn't good enough"
+      "value": "5.0⭐",
+      "subtext": "Top Rated Plus status"
     },
     {
-      "label": "Production Code",
+      "label": "Production Hours",
       "value": "3,658h+",
-      "subtext": "Still debugging"
+      "subtext": "Billed on Upwork alone"
     },
     {
-      "label": "Languages Spoken",
-      "value": "3+6",
-      "subtext": "Human + Programming"
+      "label": "Uptime Achieved",
+      "value": "99.9%",
+      "subtext": "Kubernetes in production"
     }
   ],
   "highlights": [
     {
       "title": "What I Actually Do",
       "items": [
-        "Build microservices that survive Black Friday traffic",
-        "Design distributed systems that handle failure gracefully",
-        "Write APIs that frontend developers don't complain about",
-        "Set up infrastructure that deploys itself",
-        "Debug production issues while everyone else sleeps",
-        "Ship full-stack features when needed (React/Next.js/React Native)"
+        "Build microservices architectures that scale independently",
+        "Design distributed systems with proper failure handling",
+        "Integrate conversational AI (RAG systems with LangChain)",
+        "Develop modern frontends with React/Next.js/Tailwind CSS",
+        "Set up CI/CD pipelines that reduce deployment cycles by 30%",
+        "Migrate legacy systems without data loss or downtime"
       ]
     },
     {
-      "title": "What I'm Good At",
+      "title": "What I'm Expert At",
       "items": [
-        "Golang for when performance matters (gRPC, Gin, microservices)",
-        "Python for when developer happiness matters (FastAPI, Django)",
-        "Kubernetes for when you need to scale yesterday",
-        "PostgreSQL for when your data actually matters",
-        "System design for when 'it works on my machine' isn't enough",
-        "React/Next.js for when backend devs need to ship frontend too"
+        "Golang & Python for backend services (FastAPI, Django, Gin)",
+        "React/Next.js/Tailwind CSS for modern interfaces",
+        "Kubernetes & Docker for container orchestration",
+        "PostgreSQL, Redis, Cassandra, MongoDB for data persistence",
+        "Event-driven architectures with Kafka and event logging",
+        "Cloud platforms: AWS, Azure, GCP with Terraform IaC"
       ]
     }
   ],
   "experience": [
     {
-      "period": "2022 - Present",
-      "title": "Senior Backend & DevOps Engineer",
-      "company": "Freelance (Top Rated Plus on Upwork)",
-      "summary": "Building production systems for companies that need them to actually work",
+      "period": "Feb 2023 - Aug 2025",
+      "title": "Full-Stack Engineer",
+      "company": "På(fyll) - Norway (Remote)",
+      "summary": "Building sustainable energy platform with 99.9% uptime while evangelizing software craftsmanship",
       "projects": [
         {
-          "name": "CLI Tool & Cloud Automation",
-          "client": "Crowdbotics (YC-backed)",
-          "problem": "Developers spending hours on deployment configs instead of shipping features",
-          "solution": "Built a CLI tool in Golang that generates deployment configs automatically. Added gRPC endpoints for service communication. Reduced deployment setup from hours to minutes.",
-          "impact": "Team can now focus on features, not infrastructure",
-          "tech": ["Golang", "gRPC", "Azure", "Docker"]
+          "name": "Intelligent Customer Service Chatbot",
+          "problem": "Customer support overwhelmed with repetitive queries, slow response times",
+          "solution": "Developed intelligent chatbot integrating RAG (Retrieval-Augmented Generation) system with LangChain for context-aware responses. Trained on company knowledge base.",
+          "impact": "Automated 60% of common queries, reduced support ticket volume significantly",
+          "tech": ["Python", "LangChain", "RAG", "OpenAI API", "FastAPI"]
         },
         {
-          "name": "8-Service Microservices Platform",
-          "client": "Finanzsoft GmbH (German Fintech)",
-          "problem": "Monolith taking 45 minutes to deploy, impossible to scale individual services",
-          "solution": "Broke it into 8 microservices with proper service boundaries. Set up Kubernetes orchestration. Added Prometheus monitoring. Optimized performance bottlenecks.",
-          "impact": "Deploys now take 3 minutes. Services scale independently. Team actually knows what's broken before customers do.",
-          "tech": ["Docker", "Kubernetes", "Prometheus", "Redis", "Nginx"]
+          "name": "Modern UI Redesign & Implementation",
+          "problem": "Outdated interface causing poor user experience and low engagement",
+          "solution": "Designed and implemented modern, responsive interfaces using React, Next.js, and Tailwind CSS with focus on accessibility and performance.",
+          "impact": "40% improvement in user satisfaction scores, faster page loads",
+          "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript"]
         },
         {
-          "name": "Distributed Payment System",
-          "client": "Pafyll",
-          "problem": "Legacy payment system couldn't handle international expansion",
-          "solution": "Refactored critical paths, implemented Kafka for async processing, optimized Cassandra queries that were taking 10+ seconds down to <100ms",
-          "impact": "System now handles 10x traffic, expanded to 5 new markets",
-          "tech": ["Golang", "Kafka", "Cassandra", "Docker"]
+          "name": "Backend Refactoring & Event Logging Migration",
+          "problem": "Critical backend code difficult to maintain, no audit trail, database couldn't reproduce past states",
+          "solution": "Refactored Python backend (Tornado/FastAPI) for better maintainability. Progressively migrated PostgreSQL from traditional relational model to event logging system - zero data loss, zero downtime.",
+          "impact": "System can now reproduce any past state. Reduced technical debt significantly. Debugging became dramatically easier.",
+          "tech": ["Python", "Tornado", "FastAPI", "PostgreSQL", "Event Sourcing"]
         },
         {
-          "name": "Sustainability Analytics Platform",
-          "client": "Orkla HPC (Nordic Industrial)",
-          "problem": "Manual data collection, no real-time insights",
-          "solution": "Built REST APIs with FastAPI and Golang. Implemented JWT auth. Set up CI/CD pipeline. Added automated testing.",
-          "impact": "Real-time sustainability metrics, automated reporting",
-          "tech": ["Golang", "Python", "FastAPI", "PostgreSQL", "Redis", "Docker"]
+          "name": "Back-office Automation Tools",
+          "problem": "Support team constantly needed developer intervention for routine tasks",
+          "solution": "Created suite of back-office applications with simple UIs empowering support team to handle tasks independently.",
+          "impact": "Support team autonomy increased, dev interruptions reduced by 70%",
+          "tech": ["Python", "React", "FastAPI"]
+        },
+        {
+          "name": "Developer Experience Optimization",
+          "problem": "Docker builds taking ages, slow development cycles, noisy logs drowning critical alerts",
+          "solution": "Optimized Docker build times by orders of magnitude. Implemented one-click CI/CD pipeline with GitHub Actions. Introduced build versioning, unified logging with proper levels and central aggregation.",
+          "impact": "30% reduction in deployment cycles. 60% reduction in operational noise. Team sees actionable alerts instead of spam.",
+          "tech": ["Docker", "GitHub Actions", "CI/CD", "Kubernetes", "Prometheus", "Grafana"]
+        },
+        {
+          "name": "Software Testers Club & Team Coaching",
+          "problem": "Inconsistent testing practices, knowledge silos in the team",
+          "solution": "Started weekly 'Software Testers Club' newsletter with illustrated guides. Facilitated individual kata sessions. Developed reliable test suites following test pyramid pattern.",
+          "impact": "85% code coverage with TDD. Team-wide improvement in testing skills and practices.",
+          "tech": ["TDD", "pytest", "Testing Best Practices"]
         }
       ]
     },
     {
-      "period": "2020 - 2022",
-      "title": "Backend Developer",
-      "company": "Freelance",
-      "summary": "Where I learned that 'it works' and 'it works in production' are very different things",
+      "period": "Mar 2023 - Feb 2024",
+      "title": "Software Engineer",
+      "company": "Finanzsoft GmbH - Switzerland (Remote)",
+      "summary": "Built scalable payment processing infrastructure handling 10x traffic growth",
       "projects": [
         {
-          "name": "Azure Infrastructure as Code",
-          "problem": "Manual deployments taking days, configuration drift everywhere",
-          "solution": "Wrote Terraform configs, set up Azure DevOps pipelines, automated everything that could be automated",
-          "impact": "Deploy time: days → 15 minutes. Configuration drift: eliminated",
-          "tech": ["Azure", "Terraform", "Docker", "CI/CD"]
+          "name": "8-Service Microservices Architecture",
+          "problem": "Monolithic payment system couldn't scale for international expansion, deployments took 45+ minutes",
+          "solution": "Broke monolith into 8 properly-bounded microservices communicating via gRPC. Set up Kubernetes orchestration with independent scaling. Implemented comprehensive monitoring with Prometheus and Grafana.",
+          "impact": "Deploy time: 45 min → 3 min. System now handles 10x traffic. Expanded to 5 new markets. Team knows what's broken before customers do.",
+          "tech": ["Docker", "Kubernetes", "gRPC", "Prometheus", "Grafana", "Redis", "Nginx"]
         },
         {
-          "name": "Authentication System",
-          "problem": "Every project rebuilding auth from scratch (badly)",
-          "solution": "Built reusable auth system with JWT, OAuth2, RBAC. Made it actually secure this time.",
-          "impact": "Used across multiple projects. Zero security incidents (so far)",
-          "tech": ["FastAPI", "JWT", "OAuth2", "PostgreSQL", "Redis"]
+          "name": "High-Performance Data Processing",
+          "problem": "Legacy data processing couldn't handle growing transaction volumes, high latency",
+          "solution": "Implemented Apache Kafka for async event processing. Optimized Cassandra queries from 10+ seconds to <100ms through strategic indexing.",
+          "impact": "35% latency reduction. 50% improvement in query performance. System ready for scale.",
+          "tech": ["Apache Kafka", "Cassandra", "Golang", "Performance Optimization"]
+        }
+      ]
+    },
+    {
+      "period": "Mar 2022 - Mar 2025",
+      "title": "Full-Stack Developer",
+      "company": "Monaco Chartier (Criminal Law Firm) - Toronto, Canada (Remote)",
+      "summary": "Built complete document and case management platform tailored for legal workflows",
+      "projects": [
+        {
+          "name": "Legal Document Management Platform",
+          "problem": "Law firm drowning in paper documents, manual processing, no efficient case tracking",
+          "solution": "Designed and developed full-stack platform: RESTful APIs with FastAPI/Node.js deployed on GCP. Integrated Google Cloud Vision OCR for scanned document text extraction. Built tools to extract highlights, annotations, and split PDFs by bookmarks. Modern React frontend for streamlined UX. Celery/Redis for async processing of large document batches.",
+          "impact": "Paperless workflow achieved. Hours saved per case. Lawyers can focus on legal work instead of document wrangling.",
+          "tech": ["FastAPI", "Node.js", "React", "GCP", "Google Cloud Vision OCR", "Celery", "Redis", "Docker", "Swagger"]
+        }
+      ]
+    },
+    {
+      "period": "Sep 2022 - Dec 2022",
+      "title": "DevOps Engineer",
+      "company": "Crowdbotics (Remote)",
+      "summary": "Automated deployment workflows reducing setup time from hours to minutes",
+      "projects": [
+        {
+          "name": "CLI App Generator & Deployment Automation",
+          "problem": "Developers wasting hours manually configuring deployments for each new app",
+          "solution": "Built CLI tool in Golang that auto-generates deployment configs. Implemented gRPC endpoints for service communication. Created Azure deployment scripts with Terraform (IaC). Contributed to extensible plugin system.",
+          "impact": "Deployment setup: hours → minutes. Team focuses on features, not infrastructure.",
+          "tech": ["Golang", "gRPC", "Gin", "Azure", "Terraform", "Docker"]
+        }
+      ]
+    },
+    {
+      "period": "Jan 2023",
+      "title": "Cloud Engineer",
+      "company": "Private Client (Remote)",
+      "summary": "Rapid Azure cloud infrastructure implementation with full automation",
+      "projects": [
+        {
+          "name": "Azure Cloud Infrastructure",
+          "problem": "Manual deployments taking days, configuration drift everywhere",
+          "solution": "Deployed FastAPI applications with complete CI/CD pipeline to Azure App Service. Configured Azure DevOps for automated testing and deployment. Implemented Infrastructure as Code with Terraform for Azure Container Registry and AKS clusters.",
+          "impact": "Deploy time: days → 15 minutes. Configuration drift eliminated. Repeatable, reliable deployments.",
+          "tech": ["Azure", "FastAPI", "Terraform", "Azure DevOps", "Docker", "AKS"]
+        }
+      ]
+    },
+    {
+      "period": "Feb 2021 - Present",
+      "title": "Backend & DevOps Engineer",
+      "company": "Freelance (Top Rated Plus on Upwork)",
+      "summary": "Delivering production-ready systems for international clients with 100% success rate",
+      "projects": [
+        {
+          "name": "20+ Client Projects",
+          "description": "Diverse range of backend systems, microservices, and cloud infrastructure",
+          "achievements": [
+            "100% job success rate with 5.0/5.0 average rating",
+            "3,658 hours billed across international clients",
+            "Optimized legacy systems averaging 40% performance improvement",
+            "Delivered microservices solutions with Golang, Python, and cloud technologies"
+          ],
+          "tech": ["Golang", "Python", "FastAPI", "Django", "Docker", "Kubernetes", "AWS", "Azure", "GCP", "Microservices"]
         }
       ]
     }
   ],
   "skills": {
-    "Right Now": {
-      "description": "What I'm using in production today",
-      "items": ["Golang", "Python", "Docker", "Kubernetes", "PostgreSQL", "Redis", "FastAPI", "gRPC"]
+    "Languages": {
+      "description": "What I write code in",
+      "items": ["Python", "Golang", "JavaScript/TypeScript", "Rust", "C", "Java"]
     },
-    "Cloud & DevOps": {
-      "description": "Because code needs to run somewhere",
-      "items": ["Azure", "AWS", "Terraform", "CI/CD", "GitHub Actions", "Prometheus", "Nginx"]
+    "Backend & APIs": {
+      "description": "Building services that actually work",
+      "items": ["FastAPI", "Flask", "Django", "Gin", "Fiber", "Node.js", "RESTful", "GraphQL", "gRPC"]
     },
-    "Data & Messaging": {
+    "Frontend": {
+      "description": "When backend devs need to ship UIs too",
+      "items": ["React", "Next.js", "Tailwind CSS", "HTML5/CSS3", "WebSockets", "TypeScript"]
+    },
+    "DevOps & Cloud": {
+      "description": "Getting code to production reliably",
+      "items": ["Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Jenkins", "AWS", "Azure", "GCP", "Terraform", "Ansible"]
+    },
+    "Databases": {
+      "description": "Where the data lives",
+      "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Cassandra", "Elasticsearch", "DynamoDB"]
+    },
+    "Messaging & Streaming": {
       "description": "Moving data around without losing it",
-      "items": ["Kafka", "RabbitMQ", "Cassandra", "MongoDB", "Elasticsearch", "Celery"]
+      "items": ["Apache Kafka", "RabbitMQ", "Redis Pub/Sub", "Celery", "Event Sourcing"]
+    },
+    "AI & Machine Learning": {
+      "description": "Adding intelligence to applications",
+      "items": ["LangChain", "RAG", "OpenAI API", "Transformers", "TensorFlow", "PyTorch", "Scikit-learn"]
     },
     "Architecture": {
-      "description": "Patterns that actually work at scale",
-      "items": ["Microservices", "Event-Driven", "Domain-Driven Design", "CQRS", "Distributed Systems"]
+      "description": "Patterns that scale in production",
+      "items": ["Microservices", "Event-Driven Architecture", "Domain-Driven Design", "CQRS", "Saga Pattern", "Distributed Systems"]
     },
-    "Also Know": {
-      "description": "Used enough to be dangerous",
-      "items": ["React", "Next.js", "TypeScript", "React Native", "Java", "Rust"]
+    "Testing & Monitoring": {
+      "description": "Knowing when things break",
+      "items": ["TDD", "pytest", "Jest", "Selenium", "Prometheus", "Grafana", "ELK Stack"]
     }
   },
   "projects": [
     {
       "name": "Eco Place",
       "tagline": "Marketplace for sustainable products",
-      "description": "Built a real-time marketplace platform because the world needs fewer plastic forks. WebSocket connections for live updates, Redis for caching, PostgreSQL because I like my data consistent.",
-      "tech": ["Next.js", "Python", "PostgreSQL", "Redis", "WebSockets"],
+      "description": "Built a real-time marketplace platform promoting sustainable consumption. WebSocket connections for live updates, Redis for high-performance caching, PostgreSQL for data consistency. Helping reduce plastic waste one transaction at a time.",
+      "tech": ["Next.js", "Python", "PostgreSQL", "Redis", "WebSockets", "React"],
       "status": "In production",
       "link": null
     },
     {
       "name": "Komatsu Analysis Tool",
-      "tagline": "Analytics for industrial equipment",
-      "description": "Data pipeline and dashboard for analyzing heavy machinery performance. Pandas for data munging, PostgreSQL for storage, React for visualization. Turns sensor data into actionable insights.",
-      "tech": ["Python", "Pandas", "PostgreSQL", "React"],
+      "tagline": "Analytics dashboard for industrial equipment",
+      "description": "Data pipeline and dashboard for analyzing heavy machinery performance. Processes sensor data with Pandas, stores in PostgreSQL, visualizes with React. Transforms raw telemetry into actionable insights for predictive maintenance, helping prevent costly equipment failures.",
+      "tech": ["Python", "Pandas", "PostgreSQL", "React", "Data Pipelines"],
       "status": "Client project",
       "link": null
     }
   ],
   "funFacts": [
-    "Master's in Computer Science from UCAD (Université Cheikh Anta Diop, Dakar)",
-    "Fluent in English, French, conversational Arabic (3 human languages + 6 programming)",
-    "Active on LeetCode because algorithms matter (even for backend work)",
-    "Started freelancing in 2020, went Top Rated Plus by 2022",
-    "Time zone: GMT (perfect overlap with EU morning & US afternoon)",
-    "Also comfortable with React Native when mobile apps need building",
-    "Comfortable working remotely with international teams across 3 continents"
+    "Master's in Software Engineering from École Supérieure Polytechnique de Dakar (ESP)",
+    "Currently training as Software Architect with Edacy (Talent4Startups program)",
+    "Fluent in English, French, conversational Arabic (3 human + 6+ programming languages)",
+    "MBTI: ENFJ-A (Protagonist personality type)",
+    "Started freelancing in 2021, achieved Top Rated Plus by consistent 5-star delivery",
+    "Time zone: GMT (Dakar, Senegal) - perfect overlap with EU mornings & US afternoons",
+    "Passionate about knowledge sharing - ran weekly Software Testers Club newsletter",
+    "5+ years remote work experience with teams across 3 continents"
   ]
 }
