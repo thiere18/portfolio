@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Menu, X, ChevronDown, Terminal } from 'lucide-react';
 import { PortfolioData } from '@/types/portfolio';
+import { ChevronDown, ExternalLink, Github, Linkedin, Mail, Menu, Terminal, X } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 
 interface PortfolioProps {
     data: PortfolioData;
@@ -186,6 +186,15 @@ const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
                         >
                             <Mail size={16} />
                             Get in Touch
+                        </a>
+                        <a
+                            href="/thierno_ibrahima_lo_cv.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-gray-300 hover:border-gray-900 transition-colors text-sm"
+                        >
+                            <ExternalLink size={16} />
+                            View CV
                         </a>
                     </div>
 
